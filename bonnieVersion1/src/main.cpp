@@ -16,13 +16,13 @@ using namespace vex;
 
 void leftDrive(vex::directionType dir, int velocity, vex::velocityUnits units) {
   motorLF.spin(dir, velocity, units);
-  motorLM.spin(dir, velocity, units);
+  //motorLM.spin(dir, velocity, units);
   motorLB.spin(dir, velocity, units);
 }
 
 void rightDrive(vex::directionType dir, int velocity, vex::velocityUnits units) {
   motorRF.spin(dir, velocity, units);
-  motorRM.spin(dir, velocity, units);
+  //motorRM.spin(dir, velocity, units);
   motorRB.spin(dir, velocity, units);
 }
 

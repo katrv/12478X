@@ -6,8 +6,8 @@ extern controller Controller1;
 
 extern motor motorRF;
 extern motor motorLF;
-extern motor motorRM;
-extern motor motorLM;
+//extern motor motorRM;
+//extern motor motorLM;
 extern motor motorRB;
 extern motor motorLB;
 
